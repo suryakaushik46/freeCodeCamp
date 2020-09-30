@@ -83,7 +83,9 @@ Kiedy zsynchronizujesz fork i przejdziesz do budowy, będziemy mogli przejrzeć 
 ```markdown
 Hey @username
 
-Chcielibyśmy połączyć Twoje zmiany, ale wygląda na to, że masz pewne konflikty scalania. ⚠️
+Chcielibyśmy połączyć Twoje zmiany, ale wygląda na to, że masz pewne konflikty scalania.
+
+⚠️
 
 Po rozwiązaniu tych konfliktów będziemy mogli przejrzeć twój PR i scalić go. 😊
 

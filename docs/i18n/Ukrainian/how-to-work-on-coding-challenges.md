@@ -493,7 +493,7 @@ Description text, in markdown
 <hr />
 
 <p spaces-before="0">
-  Більше відповідей
+  Відповідь 2
 </p>
 
 <h2 spaces-before="0">

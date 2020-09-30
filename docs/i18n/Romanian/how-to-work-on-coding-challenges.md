@@ -493,7 +493,7 @@ Câteva js
 <hr />
 
 <p spaces-before="0">
-  Mai multe răspunsuri
+  Răspuns 2
 </p>
 
 <h2 spaces-before="0">

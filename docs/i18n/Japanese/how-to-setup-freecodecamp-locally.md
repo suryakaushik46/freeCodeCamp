@@ -16,14 +16,14 @@
 
 We also support Windows 10 via WSL2, which you can prepare by [reading this guide](/how-to-setup-wsl).
 
-コミュニティメンバーの中には、Git for Windows(Git Bash)やWindowsにインストールされている他のツールを使用して、Windows 10でネイティブに開発する人もいます。 現時点では、このようなセットアップの公式サポートはありません。代わりに WSL2 を使用することをお勧めします。
+コミュニティメンバーの中には、Git for Windows(Git Bash)やWindowsにインストールされている他のツールを使用して、Windows 10でネイティブに開発する人もいます。 現時点では、このようなセットアップの公式サポートはありません。 代わりに WSL2 を使用することをお勧めします。
 
 **前提条件:**
 
 | 前提条件                                                                                   | バージョン  | メモ                                                                                                                                                             |
 | -------------------------------------------------------------------------------------- | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [Node.js](http://nodejs.org)                                                           | `12.x` | [LTSスケジュール](https://github.com/nodejs/Release#release-schedule)                                                                                                |
-| npm (Nodeにバンドルされています)                                                                  | `6.x`  | LTS リリースはありません。Node LTS にバンドルされているバージョンを使用しています。                                                                                                               |
+| npm (Nodeにバンドルされています)                                                                  | `6.x`  | LTS リリースはありません。 Node LTS にバンドルされているバージョンを使用しています。                                                                                                              |
 | [MongoDBコミュニティサーバー](https://docs.mongodb.com/manual/administration/install-community/) | `3.6`  | [リリースノート](https://docs.mongodb.com/manual/release-notes/), 注意: 現在 `3.6`にあります。 , [アップグレードが予定されています](https://github.com/freeCodeCamp/freeCodeCamp/issues/18275). |
 
 > [!DANGER] 異なるバージョンの場合は、推奨バージョンをインストールしてください。 推奨バージョンのインストールに関する問題のみサポートできます。 詳細は [troubleshooting](#troubleshooting) を参照してください。
@@ -163,6 +163,7 @@ freeCodeCampのローカルコピーがあるので、これらの指示に従�
 
 ```console
 # "sample.env" のコピーを作成し、".env" という名前を付けます。
+# "sample.env" のコピーを作成し、".env" という名前を付けます。
 # Populate it with the necessary API keys and secrets:
 
 # macOS / Linux
@@ -265,7 +266,9 @@ npm run develop
    ブランチマスター
    のブランチは 'origin/master' で最新です。
 
-   コミットする必要はありません。作業ディレクトリをクリーンアップします。
+   コミットする必要はありません。
+
+   作業ディレクトリをクリーンアップします。
    ```
 
    マスターにいない場合、または作業ディレクトリがきれいでない場合は、未処理のファイル/コミットとチェック アウトを解決します `マスター`:
@@ -348,15 +351,15 @@ npm run develop
    ブランチのfeat/documentation
    あなたのブランチは 'upstream/feat/documentation' で最新です。
 
-   Changes not staged for commit:
-   (use "git add/rm <file>..." to update what will be committed)
-   (use "git checkout -- <file>..." to discard changes in working directory)
+   コミットする変更:
+   ("git reset HEAD <file>..."
 
-       modified:   CONTRIBUTING.md
-       modified:   docs/README.md
-       modified:   docs/how-to-setup-freecodecamp-locally.md
-       modified:   docs/how-to-work-on-guide-articles.md
-   ...
+   を使用して unstage)
+
+       modified: CONTRIBUTING.md
+       modified: docs/README.md
+       modified: docs/how-to-setup-freecodecamp-locally.md
+       modified: docs/how-to-work-on-guide-articles.md
    ```
 
 8. 変更をステージングし、コミットを行います:
@@ -385,13 +388,14 @@ npm run develop
    ブランチのfeat/documentation
    あなたのブランチは 'upstream/feat/documentation' で最新です。
 
-   コミットする変更:
-   ("git reset HEAD <file>..." を使用して unstage)
+   to update what will be committed)
+   (use "git checkout -- <file>..." to discard changes in working directory)
 
-       modified: CONTRIBUTING.md
-       modified: docs/README.md
-       modified: docs/how-to-setup-freecodecamp-locally.md
-       modified: docs/how-to-work-on-guide-articles.md
+       modified:   CONTRIBUTING.md
+       modified:   docs/README.md
+       modified:   docs/how-to-setup-freecodecamp-locally.md
+       modified:   docs/how-to-work-on-guide-articles.md
+   ...
    ```
 
    これで、次のような短いメッセージで変更をコミットできます。

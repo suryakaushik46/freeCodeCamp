@@ -61,6 +61,8 @@ Pick a challenge markdown file from the options above.
 
 まず、ビデオIDを見つける。
 
+例えば、ビデオチャレンジマークダウンファイルのヘッダから以下のコードでは、videoIdは「nVAAxZ34khk」です。
+
 例えば、ビデオチャレンジマークダウンファイルのヘッダから以下のコードでは、videoIdは「nVAAxZ34khk」です。 GitHub では、情報をテーブル形式でレイアウトする必要があります。
 ````
 ---
@@ -79,6 +81,8 @@ Skim the YouTube video with that videoId and think of a multiple choice question
 ### マークダウンファイルに質問を追加する
 
 GitHubインターフェースを介して、ローカルまたは直接質問を追加することができます。 ローカルで質問を追加するには、format@@0(how-to-setup-freecodecamp-locally.md) が必要です。 GitHubでファイルを見つけて、編集ボタンをクリックして、ブラウザで質問を追加することもできます。
+
+GitHubでファイルを見つけて、編集ボタンをクリックして、ブラウザで質問を追加することもできます。
 
 If a question has not yet been added to a particular video challenge, it will have the following default question:
 

@@ -20,7 +20,7 @@ Typisch [`master`](https://github.com/freeCodeCamp/freeCodeCamp/tree/master) (de
 
 Dit is een tussenliggende release voor onze ontwikkelaars en vrijwilligers. Het staat ook bekend als onze "staging" of "beta" vrijlating.
 
-Het is identiek aan onze live productie omgeving op `freeCodeCamp.org`, anders dan het met behulp van een aparte set databases, servers, webproxies, enz. Deze isolatie laat ons doorlopende ontwikkeling en functies in een "productie" zoals scenario, zonder de reguliere gebruikers van freeCodeCamp.org te beïnvloeden.
+Het is identiek aan onze live productie omgeving op `freeCodeCamp.org`, anders dan het met behulp van een aparte set databases, servers, webproxies, enz. Deze isolatie laat ons doorlopende ontwikkeling en functies in een "productie" zoals scenario, zonder de reguliere gebruikers van freeCodeCamp.org te beïnvloeden. Deze isolatie laat ons doorlopende ontwikkeling en functies in een "productie" zoals scenario, zonder de reguliere gebruikers van freeCodeCamp.org te beïnvloeden.
 
 Zodra het ontwikkelteam [`@freeCodeCamp/dev-team`](https://github.com/orgs/freeCodeCamp/teams/dev-team/members) tevreden is met de wijzigingen op het ontwikkelingsplatform, deze wijzigingen worden om de paar dagen verplaatst naar de [`productie-current`](https://github.com/freeCodeCamp/freeCodeCamp/tree/production-current) branch.
 
@@ -182,7 +182,7 @@ We verwelkomen je om deze releases te testen in een **"openbare bèta-testing"**
 
 Uw bijdragen via feedback en probleemrapporten zullen ons helpen bij het maken van de productieplatforms bij `freeCodeCamp. rg` meer **weerstandsvermogen**, **consistent** en **stabiel** voor iedereen.
 
-Wij danken u voor het melden van fouten die u tegenkomt en helpen bij het verbeteren van freeCodeCamp.org. Je bent geweldig!
+Wij danken u voor het melden van fouten die u tegenkomt en helpen bij het verbeteren van freeCodeCamp.org. Je bent geweldig! Je bent geweldig!
 
 ### Identificeren van de aankomende versie van de platforms
 

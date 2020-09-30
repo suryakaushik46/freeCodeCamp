@@ -424,16 +424,20 @@ sudo apt инсталлирует сборку
    > Todo: Эта настройка должна быть перенесена на хранилище Blob S3 или Azure 
    > 
    > ```console
-   echo "serve -c ../../serve.json www -p 50505" >> client-start-primary.sh
-   chmod +x client-start-primary. h
-   pm2 удалить client-primary
-   pm2 start . client-start-primary.sh --name client-primary
-   echo "serve -c . /../serve.json www -p 52525" >> client-start-secondary.sh
-   chmod +x client-start-secondary. h
-   pm2 удалить client-secondary
-   pm2 запустить ./client-start-secondary.sh --name client-secondary
+   ```console
+     echo "serve -c ../../serve.json www -p 50505" &#062;&#062; client-start-primary.sh
+     chmod +x client-start-primary. h
+     pm2 удалить client-primary
+     pm2 start . client-start-primary.sh --name client-primary
+     echo "serve -c . /../serve.json www -p 52525" &#062;&#062; client-start-secondary.sh
+     chmod +x client-start-secondary. h
+     pm2 удалить client-secondary
+     pm2 запустить ./client-start-secondary.sh --name client-secondary
 ```
 
+## Обновление экземпляров (Maintenance)
+
+```console
 ## Ведение журнала и мониторинг
 
 ```console

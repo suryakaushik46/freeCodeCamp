@@ -66,8 +66,7 @@ Stel nu het pad in om te gaan met de volgende commando's.
 ```bash
 echo "export GOPATH=$HOME/go" >> ~/.profiel
 echo 'export PATH=$PATH:/usr/local/bin:$GOPATH/bin' >> ~/.profiel
-bron ~/.profiel 
-
+bron ~/.profiel
 ```
 
 Ten slotte voer de onderstaande commando's in om MailHog te installeren en uitvoeren.

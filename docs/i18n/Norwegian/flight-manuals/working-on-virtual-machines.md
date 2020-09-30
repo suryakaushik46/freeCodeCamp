@@ -434,6 +434,9 @@ Foreslå VMs med koden
    pm2 start ./client-start-secondary.sh --name client-secondary
 ```
 
+## Oppdaterer Instanser (vedlikehold)
+
+```console
 ## Logging og overvåking
 
 ```console

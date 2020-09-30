@@ -424,16 +424,20 @@ Fournir des VM avec le Code
    > Todo: Cette configuration doit être déplacée vers le stockage S3 ou Azure Blob 
    > 
    > ```console
-   echo "serve -c ../../serve.json www -p 50505" >> client-start-primary.sh
-   chmod +x client-start-primary. h
-   pm2 supprimer client-primary
-   pm2 start . client-start-primary.sh --name client-primary
-   echo "serve -c . /../serve.json www -p 52525" >> client-start-secondary.sh
-   chmod +x client-start-secondary. h
-   pm2 supprimer client-secondaire
-   pm2 start ./client-start-secondy.sh --name client-secondaire
+   ```console
+     echo "serve -c ../../serve.json www -p 50505" &#062;&#062; client-start-primary.sh
+     chmod +x client-start-primary. h
+     pm2 supprimer client-primary
+     pm2 start . client-start-primary.sh --name client-primary
+     echo "serve -c . /../serve.json www -p 52525" &#062;&#062; client-start-secondary.sh
+     chmod +x client-start-secondary. h
+     pm2 supprimer client-secondaire
+     pm2 start ./client-start-secondy.sh --name client-secondaire
 ```
 
+## Mise à jour des instances (maintenance)
+
+```console
 ## Journalisation et surveillance
 
 ```console

@@ -424,16 +424,20 @@ Bereitstellung von VMs mit dem Code
    > Todo: Dieses Setup muss in den S3 oder Azure Blob Speicher verschoben werden 
    > 
    > ```console
-   echo "serve -c ../../serve.json www -p 50505" >> client-start-primary.sh
-   chmod +x client-start-primary. h
-   pm2 löschen Kunden primäre
-   pm2 Start . client-start-primary.sh --name client-primary
-   echo "serve -c . /../serve.json www -p 52525" >> client-start-secondary.sh
-   chmod +x client-start-secondary. h
-   pm2 löschen Kunde Sekundär
-   pm2 Start ./client-start-secondary.sh --name client-secondary
+   ```console
+     echo "serve -c ../../serve.json www -p 50505" &#062;&#062; client-start-primary.sh
+     chmod +x client-start-primary. h
+     pm2 löschen Kunden primäre
+     pm2 Start . client-start-primary.sh --name client-primary
+     echo "serve -c . /../serve.json www -p 52525" &#062;&#062; client-start-secondary.sh
+     chmod +x client-start-secondary. h
+     pm2 löschen Kunde Sekundär
+     pm2 Start ./client-start-secondary.sh --name client-secondary
 ```
 
+## Aktualisiere Instanzen (Wartung)
+
+```console
 ## Protokollierung und Überwachung
 
 ```console

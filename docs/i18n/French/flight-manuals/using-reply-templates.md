@@ -83,7 +83,9 @@ Une fois que vous aurez synchronisé votre fork et passé la compilation, nous p
 ```markdown
 Hey @username
 
-Nous aimerions pouvoir fusionner vos modifications, mais il semble que vous ayez des conflits de fusion. ⚠️
+Nous aimerions pouvoir fusionner vos modifications, mais il semble que vous ayez des conflits de fusion.
+
+⚠️
 
 Une fois que vous aurez résolu ces conflits, nous pourrons revoir votre PR et la fusionner. 😊
 

@@ -32,7 +32,7 @@
 
 ## Git の設定
 
-Git は Ubuntu 18.04 でプリインストールされています。Git バージョンが `git --version` であることを確認してください。
+Git は Ubuntu 18.04 でプリインストールされています。 Git バージョンが `git --version` であることを確認してください。
 
 ```output
 ~

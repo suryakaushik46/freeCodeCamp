@@ -434,6 +434,9 @@ Tillhandahållande av virtuella maskiner med koden
    pm2 starta ./client-start-secondary.sh --name client-secondary
 ```
 
+## Uppdatera instanser (underhåll)
+
+```console
 ## Loggning och övervakning
 
 ```console

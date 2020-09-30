@@ -119,18 +119,13 @@ La solution ```{ext}
 >
 > 2. Pour la section `Tests` ci-dessus, `text` et `testString` doivent être des chaînes YAML valides. `testString` peut être une fonction ou une expression stringifiée en utilisant les assertions Chai.
 
-## Défi de numérotation
-
-Chaque défi a besoin d'un `id`. Si vous ne le spécifiez pas, MongoDB en créera un nouveau au hasard lorsqu'il enregistrera les données; cependant, nous ne voulons pas qu'il le fasse, car nous voulons que les identifiants de défis soient cohérents entre les différents environnements (mise en scène, production, beaucoup de développeurs différents, etc.).
+Chaque défi a besoin d'un <code>id</code>. Si vous ne le spécifiez pas, MongoDB en créera un nouveau au hasard lorsqu'il enregistrera les données; cependant, nous ne voulons pas qu'il le fasse, car nous voulons que les identifiants de défis soient cohérents entre les différents environnements (mise en scène, production, beaucoup de développeurs différents, etc.).
 
 Pour générer un nouveau dans un shell (en supposant que MongoDB tourne séparément) :
 
 1. Exécutez la commande `mongo`.
 2. Exécutez la commande `ObjectId()`.
 
-Par exemple :
-
-```bash
 $ mongo
 version du shell MongoDB v3.6.1
 connexion à: mongodb://127.0.0.1:27017
@@ -139,10 +134,25 @@ Version du serveur MongoDB : 3.4.10
 $ ObjectId()
 ObjectId("5a474d78df58bafeb3535d34")
 ````
+. Si vous ne le spécifiez pas, MongoDB en créera un nouveau au hasard lorsqu'il enregistrera les données; cependant, nous ne voulons pas qu'il le fasse, car nous voulons que les identifiants de défis soient cohérents entre les différents environnements (mise en scène, production, beaucoup de développeurs différents, etc.).
+
+Pour générer un nouveau dans un shell (en supposant que MongoDB tourne séparément) :
+
+1. Exécutez la commande `mongo`.
+2. Exécutez la commande `ObjectId()`.
+
+$ mongo
+version du shell MongoDB v3.6.1
+connexion à: mongodb://127.0.0.1:27017
+Version du serveur MongoDB : 3.4.10
+...
+$ ObjectId()
+ObjectId("5a474d78df58bafeb3535d34")
+</code>
 
 Le résultat est un nouvel identifiant, par exemple `5a474d78df58bafeb3535d34` ci-dessus.
 
-Une fois que vous avez votre identifiant, mettez-le dans le fichier markdown en tant que le champ `id` en haut, par ex.
+La solution ```{ext} // est requise
 
 ```yml
 ---
@@ -150,21 +160,21 @@ id: 5a474d78df58bafeb3535d34
 titre : Titre du défi
 ```
 
-## Défis de nommage
+## Défi de numérotation
 
 Nommer les choses est difficile. Nous avons facilité la tâche en imposant des contraintes.
 
-Tous les titres de challenge doivent être explicites et suivre ce modèle :
+Pour générer un nouveau dans un shell (en supposant que MongoDB tourne séparément) :
 
-\[verb\]\[clause d'objet\]
+Par exemple :
 
-Voici quelques exemples de noms de défis :
+Le résultat est un nouvel identifiant, par exemple `5a474d78df58bafeb3535d34` ci-dessus.
 
 - Utiliser la note dans le sens horaire pour spécifier le rembourrage d'un élément
 - Tableaux condensés avec .reduce
 - Utiliser la note de crochet pour trouver le premier caractère dans une chaîne de caractères
 
-## Description / instructions du défi
+## Défis de nommage
 
 Les phrases doivent être claires et concises avec un jargon minimal. S'il est utilisé, le jargon devrait être immédiatement défini en anglais clair.
 
@@ -174,7 +184,7 @@ Le texte de défi devrait utiliser la deuxième personne (« vous ») pour lui d
 
 Ne pas utiliser de liens sortants. Celles-ci interrompent le flux. Les campeurs ne devraient jamais avoir à Google quoi que ce soit pendant ces défis. S'il y a des ressources dont vous pensez que les campeurs pourraient bénéficier, ajoutez-les à l'article du Guide du défi.
 
-Vous pouvez ajouter des diagrammes si nécessaire.
+Voici quelques exemples de noms de défis :
 
 N'utilisez pas d'émoticônes ou d'émoticônes dans les défis. freeCodeCamp a une communauté mondiale, et la signification culturelle d'un emoji ou d'une émoticône peut être différente dans le monde. En outre, les émoticônes peuvent se rendre différemment sur différents systèmes.
 
@@ -193,7 +203,7 @@ Si cela prend plus de deux minutes pour compléter le défi, vous avez deux opti
 - Simplifiez le défi, ou
 - Divisez le défi en deux défis.
 
-La règle de 2 minutes oblige vous, le concepteur de défi, à rendre vos instructions concises, votre code de graine clair et vos tests directement.
+Vous pouvez ajouter des diagrammes si nécessaire.
 
 Nous vérifions combien de temps il faut aux campeurs pour résoudre les changements et utiliser cette information pour identifier les défis qui doivent être simplifiés ou fractionnés.
 
@@ -207,7 +217,7 @@ Notre objectif est d'avoir des milliers de défis de 2 minutes. Ils peuvent se r
 
 ### Mise en forme du texte du défi
 
-Voici des directives de mise en forme spécifiques pour le texte du challenge et des exemples:
+La règle de 2 minutes oblige vous, le concepteur de défi, à rendre vos instructions concises, votre code de graine clair et vos tests directement.
 
 - Les mots-clés de la langue vont dans les balises `<code>`. Par exemple, les noms de balises HTML ou les noms de propriétés CSS
 - La première instance d'un mot clé lorsqu'il est défini, ou des mots-clés généraux (c'est-à-dire "objet" ou "immuable") va dans les balises `<dfn>`
@@ -215,20 +225,17 @@ Voici des directives de mise en forme spécifiques pour le texte du challenge et
 - Utilisez <code>parseInt</code> pour convertir la variable <code>realNumber</code> en un entier.
 - Les blocs de code multi-lignes **doivent être précédés d'une ligne vide**. La ligne suivante doit commencer par trois backticks suivis immédiatement par une des langues [prises en charge](https://prismjs.com/#supported-languages). Pour compléter le bloc de code, tu dois commencer une nouvelle ligne qui n'a que trois ticks et **une autre ligne vide**. **Remarque :** Si vous allez utiliser un exemple de code dans YAML, utiliser `yaml` au lieu de `yml` pour la langue à droite des backticks.
 
-Voir l'exemple ci-dessous:
+Nous vérifions combien de temps il faut aux campeurs pour résoudre les changements et utiliser cette information pour identifier les défis qui doivent être simplifiés ou fractionnés.
 
 ````md
-Voici un exemple de code :
-
-```{language}
-
-[VOTRE CODE ICI]
+---
+id: 5a474d78df58bafeb3535d34
+titre : Titre du défi
 
 ````
 ````
 
-- Des informations supplémentaires sous la forme d'une note doivent être formatées `<strong>Note :</strong> Reste du texte de la note ...
-- Si plusieurs notes sont nécessaires, puis listez toutes les notes en phrases séparées en utilisant le format `<strong>Informations :</strong> First note text. Texte de la deuxième note.`.
+- Des informations supplémentaires sous la forme d'une note doivent être formatées `<strong>Note :</strong> Reste du texte de la note ... - Si plusieurs notes sont nécessaires, puis listez toutes les notes en phrases séparées en utilisant le format `<strong>Informations :</strong> First note text. Texte de la deuxième note.`.
 - Utilisez des guillemets doubles le cas échéant
 
 ## Écrire des tests
@@ -327,17 +334,17 @@ Avant de [créer une pull request](how-to-open-a-pull-request. d) pour vos modif
 1. Pour tester tous les challenges exécutez la commande ci-dessous depuis le répertoire racine
 
 ````
-npm exécuter test:curriculum
+Nous pouvons renforcer les concepts précédemment couverts par la répétition et les variations - par exemple, introduire les éléments h1 dans un défi, puis h3 éléments quelques défis plus tard.
 ``` 
 
 2. Vous pouvez également tester un bloc ou un superbloc de défis avec ces commandes
 
 ```
-npm exécuter test:curriculum --block='HTML de base et HTML5'
+npm exécuter test:curriculum --superblock=responsive-web-design
 ```
 
 ```
-npm exécuter test:curriculum --superblock=responsive-web-design
+Voici des directives de mise en forme spécifiques pour le texte du challenge et des exemples:
 ```
 
 Vous pouvez également tester un défi individuellement en effectuant les étapes suivantes :
@@ -391,7 +398,7 @@ Texte de description dans markdown
 
 ![test-id-1]
 
-Il y aura un nombre arbitraire de triples d'ids, d'instructions (en markdown) et de blocs de code.
+npm exécuter test:curriculum --block='HTML de base et HTML5'
 
 ```js
 Code pour le test 1
@@ -402,7 +409,7 @@ Code pour le test 1
 Plus d'instructions dans la syntaxe markdown
 
 ```js
-Plus de code
+Code pour le test 1
 ```
 
 ## --step-seed--
@@ -410,13 +417,13 @@ Plus de code
 ### --before-user-code--
 
 ```lang
-Code évalué avant l'utilisateur
+Plus de code
 ```
 
 ### --after-user-code--
 
 ```lang
-Code évalué après l'utilisateur et juste avant les tests
+Code évalué avant l'utilisateur
 ```
 
 ### --seed-content--
@@ -424,15 +431,15 @@ Code évalué après l'utilisateur et juste avant les tests
 ![index-html]
 
 ```html
-Quelques html
+Code évalué après l'utilisateur et juste avant les tests
 ```
 
 ```css
-Quelques css
+Quelques html
 ```
 
 ```js
-Quelques js
+Quelques css
 ```
 
 ![index-js]
@@ -457,7 +464,7 @@ Quelques js
 
 
 <p spaces-before="0">
-  Encore la même chose
+  Plus d'instructions dans la syntaxe markdown
 </p>
 
 <h1 spaces-before="0">
@@ -465,7 +472,7 @@ Quelques js
 </h1>
 
 <h2 spaces-before="0">
-  --marqueur-texte-
+  --marqueur-solution-
 </h2>
 
 
@@ -475,13 +482,13 @@ Quelques js
 </p>
 
 <h2 spaces-before="0">
-  --réponses-marqueur--
+  --marqueur-texte-
 </h2>
 
 
 
 <p spaces-before="0">
-  Réponse 1
+  Réponse 2
 </p>
 
 <hr />
@@ -493,11 +500,11 @@ Quelques js
 <hr />
 
 <p spaces-before="0">
-  Plus de réponses
+  Exactement la même chose que la section graines
 </p>
 
 <h2 spaces-before="0">
-  --marqueur-solution-
+  --réponses-marqueur--
 </h2>
 
 
@@ -519,7 +526,7 @@ Quelques js
 
 
 <p spaces-before="0">
-  Création et édition de défis :
+  Réponse 1
 </p>
 
 

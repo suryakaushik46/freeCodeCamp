@@ -35,9 +35,7 @@ id: Eindeutige Kennung (alphanumerisch, MongoDB_id)
 title: Challenge Title
 challengeType: 0
 videoUrl: 'url of video explanation'
----
-
-## Beschreibung
+--- ## Beschreibung
 
 <section id='description'>
 
@@ -139,6 +137,8 @@ MongoDB Server Version: 3.4.10
 ...
 $ ObjectId()
 ObjectId("5a474d78df58bafeb3535d34")
+$ ObjectId()
+ObjectId("5a474d78df58bafeb3535d34")
 ````
 
 Das Ergebnis ist eine neue Id, zum Beispiel `5a474d78df58bafeb3535d34` oben.
@@ -228,9 +228,8 @@ Das folgende Beispiel ist ein Beispiel für Code:
 ````
 ````
 
-- Zusätzliche Informationen in Form einer Notiz sollten formatiert werden `<strong>Hinweis:</strong> Rest der Notiz Text...
-- Wenn mehrere Notizen benötigt werden dann listet alle Notizen in separaten sentences mit dem Format `<strong>Notizen:</strong> First note text. Zweite Anmerkung Text.`.
-- Verwenden Sie doppelte Anführungszeichen, wo anwendbar
+- Zusätzliche Informationen in Form einer Notiz sollten formatiert werden `<strong>Hinweis:</strong> Rest der Notiz Text... Wenn mehrere Notizen benötigt werden dann listet alle Notizen in separaten sentences mit dem Format `<strong>Notizen:</strong> First note text. Zweite Anmerkung Text.`.
+Verwenden Sie doppelte Anführungszeichen, wo anwendbar
 
 ## Schreibtests
 
@@ -273,9 +272,7 @@ Wenn Sie eine Lösung für ein Thema der Lehrplan-Herausforderung vorschlagen, d
 ````md
 # Challenge Name geht hier
 
----
-
-## Problembeschreibung
+--- ## Problembeschreibung
 
 Dies fasst zusammen, was getan werden muss, ohne die Challenge Beschreibung und/oder Anweisungen neu zu setzen. Dies ist ein optionaler Abschnitt
 
@@ -284,9 +281,7 @@ Dies fasst zusammen, was getan werden muss, ohne die Challenge Beschreibung und/
 - [Link Text](link_url_goes_here)
 - [Link Text](link_url_goes_here)
 
----
-
-## Hinweise
+--- ## Hinweise
 
 ### Hinweis 1
 
@@ -296,9 +291,7 @@ Tipp geht hierher
 
 Hinweis geht hierher
 
----
-
-## Lösungen
+--- ## Lösungen
 
 <details><summary>Lösung 1 (Klicken Sie auf Anzeigen/Verbergen)</summary>
 
@@ -368,15 +361,12 @@ Die Challenge-Vorlage wird auf eine sauberere, weniger verschachtelte Struktur a
 
 ``mdx
 
----
-id: Einzigartige Kennung (alphanumerisch, MongoDB_id)
+--- id: Einzigartige Kennung (alphanumerisch, MongoDB_id)
 Titel: 'Challenge Title'
 ChallengeType: Integer, definiert in `client/utils/challengeTypen. s`
 videoUrl: 'url of video explaination'
 forumTopicId: 12345
----
-
-import Script von './script. dx';
+--- import Script von './script. dx';
 
 ## --step-description--
 
@@ -488,13 +478,13 @@ Einige js
 <hr />
 
 <p spaces-before="0">
-  Antwort 2
+  Weitere Antworten
 </p>
 
 <hr />
 
 <p spaces-before="0">
-  Weitere Antworten
+  Antwort 2
 </p>
 
 <h2 spaces-before="0">

@@ -227,8 +227,7 @@ Di seguito è riportato un esempio di codice:
 ````
 ````
 
-- Ulteriori informazioni nella forma di una nota dovrebbero essere formattate `<strong>Nota:</strong> Riposo del testo della nota...
-- Se sono necessarie più note, quindi elenca tutte le note in frasi separate usando il formato `<strong>Note:</strong> Testo prima nota. Seconda nota testo.`.
+- Ulteriori informazioni nella forma di una nota dovrebbero essere formattate `<strong>Nota:</strong> Riposo del testo della nota... - Se sono necessarie più note, quindi elenca tutte le note in frasi separate usando il formato `<strong>Note:</strong> Testo prima nota. Seconda nota testo.`.
 - Usa virgolette doppie se del caso
 
 ## Test di scrittura
@@ -493,7 +492,7 @@ Alcuni js
 <hr />
 
 <p spaces-before="0">
-  Altre risposte
+  Risposta 2
 </p>
 
 <h2 spaces-before="0">

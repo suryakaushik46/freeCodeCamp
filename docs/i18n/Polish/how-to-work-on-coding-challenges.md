@@ -10,7 +10,7 @@ Tworzenie tych wyzwań wymaga ogromnej kreatywności i skupienia uwagi na szczeg
 
 Dzięki Twojej pomocy możemy zaprojektować interaktywny program nauczania kodowania, który pomoże milionom ludzi nauczyć się kodowania na nadchodzące lata.
 
-Zawartość dla każdego wyzwania jest przechowywana w jego własnym pliku markdown Ten plik markdown jest później przekonwertowany do HTML za pomocą naszych narzędzi do tworzenia interaktywnych stron internetowych.
+Zawartość dla każdego wyzwania jest przechowywana w jego własnym pliku markdown Zawartość dla każdego wyzwania jest przechowywana w jego własnym pliku markdown Ten plik markdown jest później przekonwertowany do HTML za pomocą naszych narzędzi do tworzenia interaktywnych stron internetowych.
 
 Wszystkie treści programu nauczania freeCodeCamp.org można znaleźć w katalogu [`/curriculum/challenges`](https://github.com/freeCodeCamp/freeCodeCamp/tree/master/curriculum/challenges).
 
@@ -493,7 +493,7 @@ Kilka js
 <hr />
 
 <p spaces-before="0">
-  Więcej odpowiedzi
+  Odpowiedź 2
 </p>
 
 <h2 spaces-before="0">

@@ -98,10 +98,13 @@ When you are working on regular bugs and features on our development branch `mas
    ```console
    # Entweder
    git add .
+   # Entweder
+   git add .
    git commit -m "chore: resolve conflicts"
 
    # Oder
    git add .
+   git commit --amend --no-edit
    git commit --amend --no-edit
    ```
 

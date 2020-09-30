@@ -1,4 +1,4 @@
-Die [freeCodeCamp.org](https://freecodecamp.org) gemeenskap is moontlik vanweë duisende vriendelike vrywilligers soos jy. We welcome any and all contributions to the community and are excited to welcome you aboard.
+Die [freeCodeCamp.org](https://freecodecamp.org) gemeenskap is moontlik vanweë duisende vriendelike vrywilligers soos jy. Ons welkom enige en al gemeenskapsbydraes, en ons is opgewonde om jou aan boord te verwelkom.
 
 > [!NOTE] Before you proceed, please take a quick 2 minutes to read our [Code of Conduct](https://www.freecodecamp.org/code-of-conduct). We enforce it strictly across our community. We want contributing to freeCodeCamp.org to be a safe and inclusive experience for everyone.
 

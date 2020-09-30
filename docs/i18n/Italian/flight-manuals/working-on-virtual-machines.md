@@ -424,16 +424,20 @@ Meccanismi provvisori con il codice
    > Todo: Questa configurazione deve passare allo storage S3 o Azure Blob 
    > 
    > ```console
-   echo "serve -c ../../serve.json www -p 50505" >> client-start-primary.sh
-   chmod +x client-start-primary. h
-   pm2 delete client-primary
-   pm2 start . client-start-primary.sh --name client-primary
-   echo "serve -c . /../serve.json www -p 52525" >> client-start-secondary.sh
-   chmod +x client-start-secondary. h
-   pm2 cancella client-secondario
-   pm2 start ./client-start-secondary.sh --name client-secondario
+   ```console
+     echo "serve -c ../../serve.json www -p 50505" &#062;&#062; client-start-primary.sh
+     chmod +x client-start-primary. h
+     pm2 delete client-primary
+     pm2 start . client-start-primary.sh --name client-primary
+     echo "serve -c . /../serve.json www -p 52525" &#062;&#062; client-start-secondary.sh
+     chmod +x client-start-secondary. h
+     pm2 cancella client-secondario
+     pm2 start ./client-start-secondary.sh --name client-secondario
 ```
 
+## Aggiornamento Istanze (Manutenzione)
+
+```console
 ## Registrazione e monitoraggio
 
 ```console

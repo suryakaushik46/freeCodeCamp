@@ -318,7 +318,7 @@ seed npm
    git checkout -b fix/update-guide-for-xyz
    ```
 
-   Имя вашей ветки должно начинаться с `fix/`, `feat/`, `docs/`, и т.д. Избегайте использования номеров замечаний в ветвях. Держите их короткими, значимыми и уникальными.
+   Имя вашей ветки должно начинаться с `fix/`, `feat/`, `docs/`, и т.д. Избегайте использования номеров замечаний в ветвях. Избегайте использования номеров замечаний в ветвях. Держите их короткими, значимыми и уникальными.
 
    Примерами хороших названий филиалов являются:
 
@@ -348,15 +348,13 @@ seed npm
    В ветке feat/documentation
    Ваша ветка актуальна с 'upstream/feat/documentation'.
 
-   Изменения для коммита не изменены:
-   (используйте "git add/rm <file>... чтобы обновить то, что будет принято)
-   (используйте "git checkout -- <file>. .", чтобы отменить изменения в рабочей папке)
+   Изменения:
+   (используйте "git reset HEAD <file>..." на unstage)
 
-       изменено: КОНСТИМУНИРОВАНИЕ. d
+       изменено: CONTRIBUTING.md
        изменено: docs/README.md
-       изменено: docs/how-to-setup-freecodecamp-locally. d
+       изменено: docs/how-to-setup-freecodecamp-locally.md
        изменено: docs/how-to-work-on-guide-articles.md
-...
    ```
 
 8. Этап изменений и исправление:
@@ -385,13 +383,11 @@ seed npm
    В ветке feat/documentation
    Ваша ветка актуальна с 'upstream/feat/documentation'.
 
-   Изменения:
-   (используйте "git reset HEAD <file>..." на unstage)
-
-       изменено: CONTRIBUTING.md
+   d
        изменено: docs/README.md
-       изменено: docs/how-to-setup-freecodecamp-locally.md
+       изменено: docs/how-to-setup-freecodecamp-locally. d
        изменено: docs/how-to-work-on-guide-articles.md
+...
    ```
 
    Теперь вы можете зафиксировать изменения с коротким сообщением так:

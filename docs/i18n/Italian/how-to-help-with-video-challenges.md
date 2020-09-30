@@ -61,6 +61,8 @@ Scegli un file di sfida dalle opzioni qui sopra.
 
 Per prima cosa, trova l'Id.
 
+Ad esempio, nel seguente codice dall'intestazione di un file di markdown di sfida video, l'Id video è "nVAaxZ34khk".
+
 Ad esempio, nel seguente codice dall'intestazione di un file di markdown di sfida video, l'Id video è "nVAaxZ34khk". Su GitHub, le informazioni devono essere disposte in un formato di tabella.
 ````
 ---
@@ -147,9 +149,9 @@ domanda:
 
     Seleziona una risposta!
   risposte:
-    - <unk> ciao *mondo*
-    - <unk> **ciao** mondo
-    - <unk> ciao mondo soluzione: 3
+    - ciao *mondo*
+    - **ciao** mondo
+    - ciao mondo soluzione: 3
 ````
 
 ````yml
@@ -158,15 +160,14 @@ domanda:
     Cosa stamperà dopo aver eseguito questo codice:
     ```py
     larghezza = 15
-    altezza = 12.
-    stampa(altezza/3)
+    altezza = 12. stampa(altezza/3)
     ````
   risposte:
     - | 39
     - | 4
-    - <unk> 4.0
-    - <unk> 5.0
-    - Soluzione <unk> 5 : 3
+    - 4.0
+    - 5.0
+    - 5 : 3
 ````
 
 #### Esempio con HTML
@@ -183,11 +184,6 @@ domanda:
       4
     - <unk>
       4.
-    - <unk>
-      5.
-    - Soluzione <unk>
-      5
-  : 3
 ````
 
 L'esempio finale dimostra che l'HTML può essere usato, ma che non è così leggibile come la versione senza di esso.

@@ -256,7 +256,7 @@ sudo systemctl status nginx
 > <h3 align="center"><a href='https://amplify.nginx.com' _target='blank'>https://amplify.nginx.com</a></h3>
 ## インスタンスの更新 (メンテナンス)
 
-NGINX インスタンスへの設定変更は GitHub 上でメンテナンスされています。これらは以下のように各インスタンスに デプロイされる必要があります。
+NGINX インスタンスへの設定変更は GitHub 上でメンテナンスされています。 これらは以下のように各インスタンスに デプロイされる必要があります。
 
 1. SSHでインスタンスに接続し、sudo と入力してください
 
@@ -419,21 +419,25 @@ sudo apt install build-essential
    cd client
    ```
 
-   Web クライアントのプレースホルダー インスタンスを開始します。これらは 個の Azure ピプラインのアーティファクトで更新されます。
+   Web クライアントのプレースホルダー インスタンスを開始します。 これらは 個の Azure ピプラインのアーティファクトで更新されます。
 
    > Todo: この設定は S3 または Azure Blob ストレージに移動する必要があります。 
    > 
    > ```console
-   echo "serve -c ../../serve.json www -p 50505" >> client-start-primary.sh
-   chmod +x client-start-primary.sh
-   pm2 delete client-primary
-   pm2 start  ./client-start-primary.sh --name client-primary
-   echo "serve -c ../../serve.json www -p 52525" >> client-start-secondary.sh
-   chmod +x client-start-secondary.sh
-   pm2 delete client-secondary
-   pm2 start  ./client-start-secondary.sh --name client-secondary
+   ```console
+     echo "serve -c ../../serve.json www -p 50505" &#062;&#062; client-start-primary.sh
+     chmod +x client-start-primary.sh
+     pm2 delete client-primary
+     pm2 start  ./client-start-primary.sh --name client-primary
+     echo "serve -c ../../serve.json www -p 52525" &#062;&#062; client-start-secondary.sh
+     chmod +x client-start-secondary.sh
+     pm2 delete client-secondary
+     pm2 start  ./client-start-secondary.sh --name client-secondary
 ```
 
+## インスタンスの更新 (メンテナンス)
+
+```console
 ## ロギングとモニタリング
 
 ```console

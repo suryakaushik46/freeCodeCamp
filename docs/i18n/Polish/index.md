@@ -1,4 +1,4 @@
-Społeczność [freeCodeCamp.org](https://freecodecamp.org) jest możliwa dzięki tysiącom życzliwych wolontariuszy takich jak Ty. Z radością witamy każdy wkład we wspólnotę i jesteśmy podekscytowani do państwa na pokładzie.
+Społeczność [freeCodeCamp.org](https://freecodecamp.org) jest możliwa dzięki tysiącom życzliwych wolontariuszy takich jak Ty. Z radością witamy każdy wkład we wspólnotę i jesteśmy podekscytowani do państwa na pokładzie. Z radością witamy każdy wkład we wspólnotę i jesteśmy podekscytowani do państwa na pokładzie.
 
 > [!UWAGA] Zanim przejdziesz dalej, zajmij 2 minuty, aby przeczytać nasz [Kodeks postępowania](https://www.freecodecamp.org/code-of-conduct). Wprowadzamy je ściśle w całej naszej społeczności. Chcemy, aby wkład w darmowy CodeCamp.org był bezpiecznym i integracyjnym doświadczeniem dla wszystkich.
 

@@ -434,6 +434,9 @@ Poskytování VM s kodexem
    pm2 start ./client-start-secondary.sh --name client-secondary
 ```
 
+## Aktualizace instancí (Maintenance)
+
+```console
 ## Logování a sledování
 
 ```console

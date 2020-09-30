@@ -493,7 +493,7 @@ Nogle js
 <hr />
 
 <p spaces-before="0">
-  Flere svar
+  Svar 2
 </p>
 
 <h2 spaces-before="0">

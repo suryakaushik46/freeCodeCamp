@@ -318,7 +318,7 @@ Volg deze stappen:
    git checkout -b fix/update-guide-for-xyz
    ```
 
-   Uw branchnaam moet beginnen met een `fix/`, `feat/`, `docs/`, enz. Vermijd het gebruik van issue nummers in branches. Houd ze kort, betekenisvol en uniek.
+   Uw branchnaam moet beginnen met een `fix/`, `feat/`, `docs/`, enz. Vermijd het gebruik van issue nummers in branches. Vermijd het gebruik van issue nummers in branches. Houd ze kort, betekenisvol en uniek.
 
    Enkele voorbeelden van goede branchnamen zijn:
 
@@ -348,15 +348,13 @@ Volg deze stappen:
    Op branch functie/documentatie
    Je branch is up to date met 'upstream/feate/documentation'.
 
-   Wijzigingen niet gefaseerd voor commit:
-   (gebruik "git add/rm <file>... om bij te werken wat zal worden verbonden)
-   (gebruik "git checkout -- <file>. ." Om wijzigingen in werkmap te negeren)
+   Wijzigingen die worden toegepast:
+   (gebruik "git reset HEAD <file>..." naar unstage)
 
-       gewijzigd: CONTRIBUTING. d
+       gewijzigd: CONTRIBUTING.md
        gewijzigd: docs/README.md
-       gewijzigd: docs/how-to-setup-freecodecamp-local. d
+       gewijzigd: docs/how-to-setup-freecodecamp-locally.md
        gewijzigd: docs/how-to-work-on-guide-articles.md
-...
    ```
 
 8. Stap de wijzigingen door en maak een commit:
@@ -385,13 +383,11 @@ Volg deze stappen:
    Op branch functie/documentatie
    Je branch is up to date met 'upstream/feate/documentation'.
 
-   Wijzigingen die worden toegepast:
-   (gebruik "git reset HEAD <file>..." naar unstage)
-
-       gewijzigd: CONTRIBUTING.md
+   d
        gewijzigd: docs/README.md
-       gewijzigd: docs/how-to-setup-freecodecamp-locally.md
+       gewijzigd: docs/how-to-setup-freecodecamp-local. d
        gewijzigd: docs/how-to-work-on-guide-articles.md
+...
    ```
 
    Nu kunt u uw wijzigingen doorvoeren met een kort bericht zoals:

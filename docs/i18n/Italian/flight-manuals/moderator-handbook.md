@@ -43,7 +43,7 @@ Pull Requests (PR) sono come i contributori inviano le modifiche al repository d
    > 
    > Chiudo questa richiesta di richiamo. Si prega di aggiungere link e altri dettagli al corrispondente articolo guida della sfida.
    > 
-   > Se pensi che io abbia torto nel chiudere questo problema, riaprilo e aggiungi ulteriori chiarimenti. Grazie, e la codifica felice.
+   > Se pensi che io abbia torto nel chiudere questo problema, riaprilo e aggiungi ulteriori chiarimenti. Grazie e codifica felice.
 
 2. **Modifica codice Sfida** Queste sono modifiche al codice in una sfida - Sfida Seed, Challenge Solution, e Stringhe di prova. Queste richieste di pull devono essere tirate giù da GitHub e testate sul computer locale per assicurarsi che i test di sfida possano ancora essere passati con la soluzione corrente, e il nuovo codice non introduce alcun errore. Alcuni contributori possono cercare di aggiungere ulteriori test per coprire i casi angolari pedantici. Dobbiamo stare attenti a non rendere la sfida troppo complicata. Queste sfide e i loro test dovrebbero essere il più possibile semplici e intuitivi. A parte le sfide dell'algoritmo e la sezione di preparazione dell'intervista, gli studenti dovrebbero essere in grado di risolvere ogni sfida in circa 2 minuti.
 
@@ -69,7 +69,7 @@ Se l'autore della pull request è un "contributore per la prima volta" dovresti 
 
 Se la pull request non sembra pronta per unirsi, puoi gentilmente rispondere dicendo all'autore cosa dovrebbe fare per prepararla. Speriamo che risponderanno e ottenere la loro richiesta di richiamo più vicino a pronti.
 
-Spesso, una richiesta di pull sarà ovviamente uno sforzo basso. Spesso puoi dirlo immediatamente quando il collaboratore non ha infastidito controllando le caselle di controllo nel modello di richiesta Pull o usato un titolo generico pull request come "modifiche fatte" o "Aggiorna indice. d".
+Spesso, una richiesta di pull sarà ovviamente uno sforzo basso. Spesso puoi dirlo immediatamente quando il collaboratore non ha infastidito controllando le caselle di controllo nel modello di richiesta Pull o usato un titolo generico pull request come "modifiche fatte" o "Aggiorna indice.
 
 Ci sono anche situazioni in cui il contributore sta cercando di aggiungere un link al proprio sito web, o includere una libreria che essi stessi hanno creato, o ha una modifica frivola che non serve ad aiutare nessuno tranne se stessi.
 
@@ -118,7 +118,7 @@ freeCodeCamp è un progetto open source attivo. Riceviamo ogni giorno nuove ques
    > 
    > Questo è un messaggio standard che ti informa che il problema che hai menzionato qui è presente nella produzione, ma che è già stato fissato in staging. Ciò significa che la prossima volta che spingeremo il nostro ramo di staging alla produzione, questo problema dovrebbe essere risolto. Per questo motivo, sto chiudendo questo problema.
    > 
-   > Se pensi che io abbia torto nel chiudere questo problema, riaprilo e aggiungi ulteriori chiarimenti. Grazie e codifica felice.
+   > Se pensi che io abbia torto nel chiudere questo problema, riaprilo e aggiungi ulteriori chiarimenti. Grazie, e la codifica felice.
 
 ### Stale di chiusura, problemi non attivi, obsoleti e richieste di ritiro
 
@@ -206,8 +206,7 @@ Questo è un messaggio standard che ti avvisa che ho dovuto temporaneamente sosp
 Sono un moderatore che agisce a nome della nostra comunità open source. Posso considerare di rimuovere la tua sospensione, ma ho bisogno che tu prenda prima i seguenti 3 passi:
 
 1. Leggi il nostro codice di condotta: https://code-of-conduct.freecodecamp.org/
-2. Inviami un messaggio confermando che hai finito di leggerlo.
-3. Spiegami perché pensi di averti sospeso e perché dovrei rimuovere la tua sospensione.
+2. Inviami un messaggio confermando che hai finito di leggerlo. 3. Spiegami perché pensi di averti sospeso e perché dovrei rimuovere la tua sospensione.
 ```
 
 - Segnala un breve riassunto dell'evento e come hanno risposto ad esso nel canale #admin. Ecco un esempio di come potrebbe apparire un tale riassunto:

@@ -69,7 +69,7 @@ Si l'auteur de la pull request est un « contributeur pour la première fois »,
 
 Si la demande d'ajout ne semble pas prête à fusionner, vous pouvez poliment répondre à l'auteur en disant ce qu'il doit faire pour qu'elle soit prête. Espérons qu'ils répondront et se rapprocheront de leur demande de tirage pour être prêts.
 
-Souvent, une pull request sera évidemment un effort faible. Vous pouvez souvent le dire immédiatement lorsque le contributeur n'a pas pris la peine de vérifier les cases à cocher dans le modèle de Pull Request, ou a utilisé un titre générique de demande d'ajout comme « made changes » ou « Update index. d".
+Souvent, une pull request sera évidemment un effort faible. Vous pouvez souvent le dire immédiatement lorsque le contributeur n'a pas pris la peine de vérifier les cases à cocher dans le modèle de Pull Request, ou a utilisé un titre générique de demande d'ajout comme « made changes » ou « Update index.
 
 Il y a également des situations où le contributeur essaie d'ajouter un lien vers son propre site web, ou inclure une bibliothèque qu'ils ont eux-mêmes créée, ou a un montage frivole qui ne sert à personne d'autre que lui-même.
 
@@ -206,8 +206,7 @@ Ceci est un message standard vous informant que j'ai dû vous suspendre temporai
 Je suis un modérateur agissant au nom de notre communauté open source. Je peux envisager de supprimer votre suspension, mais j'ai besoin que vous preniez d'abord les 3 étapes suivantes :
 
 1. Lisez notre Code de Conduite: https://code-of-conduct.freecodecamp.org/
-2. Envoyez-moi un message de retour confirmant que vous avez fini de le lire.
-3. Expliquez-moi pourquoi vous pensez que je vous ai suspendu et pourquoi je devrais supprimer votre suspension.
+2. Envoyez-moi un message de retour confirmant que vous avez fini de le lire. 3. Expliquez-moi pourquoi vous pensez que je vous ai suspendu et pourquoi je devrais supprimer votre suspension.
 ```
 
 - Signaler un bref résumé de l'événement et comment ils y ont répondu dans le canal #admin. Voici un exemple de ce à quoi un tel résumé pourrait ressembler :

@@ -434,6 +434,9 @@ Furnizarea de MPV la acest cod
    pm2 începe./client-start-secondary.sh --name client-secondary
 ```
 
+## Actualizarea instanțelor (Depozite)
+
+```console
 ## Logare și monitorizare
 
 ```console

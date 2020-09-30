@@ -424,16 +424,16 @@ Dostarczanie systemów VM za pomocą Kodeksu
    > Zadanie: Ta konfiguracja musi przenieść się do pamięci S3 lub Azure Blob 
    > 
    > ```console
-   echo "serve -c ../../serve.json www -p 50505" >> client-start-primary.sh
-   chmod +x client-start-primary. h
-   pm2 usuń klienta – pierwotny
-   pm2 start . client-start-primary.sh --name client-primary
-   echo "serve -c . /../serve.json www -p 52525" >> client-start-secondary.sh
-   chmod +x client-start-secondary. h
-   pm2 usuń klient-drugorzędny
-   pm2 start ./client-start-drugorzędny.sh --name klient-drugorzędny
+   client-start-primary.sh --name client-primary
+     echo "serve -c . /../serve.json www -p 52525" &#062;&#062; client-start-secondary.sh
+     chmod +x client-start-secondary. h
+     pm2 usuń klient-drugorzędny
+     pm2 start ./client-start-drugorzędny.sh --name klient-drugorzędny
 ```
 
+## Aktualizowanie instancji (konserwacja)
+
+```console
 ## Rejestrowanie i monitorowanie
 
 ```console

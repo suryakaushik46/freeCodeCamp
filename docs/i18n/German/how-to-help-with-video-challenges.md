@@ -19,9 +19,7 @@ id: Eindeutige Kennung (alphanumerisch, MongoDB_id)
 title: Challenge Title
 challengeType: 11
 videoId: 'YouTube videoId for video challenge'
----
-
-## Beschreibung
+--- ## Beschreibung
 
 <section id='description'>
 Eine optionale Beschreibung mit hilfreichen Informationen im Zusammenhang mit dem Video.
@@ -37,10 +35,7 @@ Eine optionale Beschreibung mit hilfreichen Informationen im Zusammenhang mit de
 Frage:
   Text: 'Frage'
   Antworten:
-    - 'Antwort Eins"
-    - 'Antwort Zweier'
-    - 'Antwort Dreier'
-  Lösung: 3
+    -
 ````
 
 </section>
@@ -57,7 +52,9 @@ Sie finden die Markdown Dateien für Video-Challenge an den folgenden Stellen im
 - [Numpy Course](https://github.com/freeCodeCamp/tree/master/curriculum/challenges/gerish/08-data-analysis-with-python/numpy)
 - [How Neurral Networks Work Course](https://github.com/freeCodeCamp/freeCodeCamp/tree/master/curriculum/challenges/english/11-machine-learning-with-python/how-neural-networks-work)
 
-Wählen Sie eine Datei aus den obigen Optionen.
+Wählen Sie eine Datei aus den obigen Optionen. ### Skim durch das Video, das mit der Challenge verbunden ist, und erstellen Sie eine mehrfache Frage
+
+Zuerst finden Sie die videoID.
 
 ### Skim durch das Video, das mit der Challenge verbunden ist, und erstellen Sie eine mehrfache Frage
 
@@ -160,8 +157,7 @@ Frage:
     Was wird nach dem Ausführen dieses Codes ausgeben:
     ```py
     Breite = 15
-    Höhe = 12.
-    Drucken (Höhe/3)
+    Höhe = 12. Drucken (Höhe/3)
     ````
   antworten:
     - | 39
@@ -184,10 +180,8 @@ Frage:
     - |
       4
     - |
-      4.
-    - |
-      5.
-    - |
+      4. |
+      5. |
       5
   Lösung: 3
 ````

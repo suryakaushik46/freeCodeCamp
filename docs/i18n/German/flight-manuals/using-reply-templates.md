@@ -31,9 +31,7 @@ Wir würden gerne Ihre Änderungen zusammenführen, aber es sieht so aus, als ob
 
 Sobald Sie diese Probleme gelöst haben, können wir Ihre PR überprüfen und zusammenführen. 😊
 
----
-
-> Fühlen Sie sich frei, die [Style-Anleitung zum Schreiben von Artikeln zu referenzieren](https://github. om/freeCodeCamp/freeCodeCamp#article-title) für dieses Repository auf die korrekte Formatierung eines Artikels, so dass deine Travis CI Build passt. ✅
+--- > Fühlen Sie sich frei, die [Style-Anleitung zum Schreiben von Artikeln zu referenzieren](https://github. om/freeCodeCamp/freeCodeCamp#article-title) für dieses Repository auf die korrekte Formatierung eines Artikels, so dass deine Travis CI Build passt. ✅
 >
 > Außerdem ist es eine gute Übung auf GitHub um eine kurze Beschreibung Ihrer Änderungen beim Erstellen eines PR zu schreiben. 📝
 ```
@@ -83,13 +81,16 @@ Sobald du deinen Fork synchronisiert und den Build abgeschlossen hast, werden wi
 ```markdown
 Hey @username
 
+Wir würden gerne in der Lage sein, Ihre Änderungen zusammenzuführen, aber es sieht so aus, als hätten Sie einige Merge-Konflikte.
+
+```markdown
+Hey @username
+
 Wir würden gerne in der Lage sein, Ihre Änderungen zusammenzuführen, aber es sieht so aus, als hätten Sie einige Merge-Konflikte. ⚠️
 
 Sobald Sie diese Konflikte gelöst haben, können wir Ihre PR überprüfen und zusammenführen. 😊
 
----
-
-> Wenn Sie mit dem Merge Konfliktprozess nicht vertraut sind Schauen Sie sich GitHubs Leitfaden auf ["Merge Contrat"](https://help an. ithub.com/articles/resolving-a-merge-conflict-on-github/). :magnifying_glass_tilted_left :
+--- > Wenn Sie mit dem Merge Konfliktprozess nicht vertraut sind Schauen Sie sich GitHubs Leitfaden auf ["Merge Contrat"](https://help an. ithub.com/articles/resolving-a-merge-conflict-on-github/). :magnifying_glass_tilted_left :
 >
 > Außerdem ist es eine gute Übung auf GitHub um eine kurze Beschreibung Ihrer Änderungen beim Erstellen eines PR zu schreiben. 📝
 ``````
@@ -108,9 +109,7 @@ Wenn du das Gefühl hast, mehr hinzuzufügen, kannst du einen neuen PR öffnen.
 
 Nochmals vielen Dank! 😊
 
----
-
-> Wenn Sie Fragen haben, wenden Sie sich bitte an [Gitter](https://gitter.im/FreeCodeCamp/Contributors) oder kommentieren Sie unten. 💬
+--- > Wenn Sie Fragen haben, wenden Sie sich bitte an [Gitter](https://gitter.im/FreeCodeCamp/Contributors) oder kommentieren Sie unten. 💬
 ```
 
 ### Schließe ungültige Pull-Requests

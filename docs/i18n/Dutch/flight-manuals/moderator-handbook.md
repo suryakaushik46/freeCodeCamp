@@ -12,7 +12,7 @@ Dit gezegd hebbende, kunt u dienen als moderator op welke plaatsen u het meest i
 
 Wij willen dat je van moderator geniet en investeer je schaarse tijd op plaatsen die voor u interessant zijn.
 
-> [!NOTE] "Met grote macht komt grote verantwoordelijkheid." - Oom Ben
+> [!NOTE] "Met grote macht komt grote verantwoordelijkheid." - Oom Ben - Oom Ben
 
 Als moderator is temperament belangrijker dan technische vaardigheden.
 
@@ -69,7 +69,7 @@ Als de auteur van de pull request een "eerste keer bijdrager" is, moet je hen oo
 
 Als de pull request niet klaar lijkt om samen te voegen kan je beleefd antwoorden aan de auteur vertellen wat ze moeten doen om hem klaar te krijgen. Hopelijk zullen zij antwoord geven en hun pull-verzoek dichter bij elkaar brengen.
 
-Vaak is een pull-aanvraag duidelijk weinig inspanning. U kunt dit vaak meteen vertellen toen de bijdrager de selectievakjes in het Pull Request-sjabloon niet controleerde, of gebruikte een algemene pull request titel zoals "made changes" of "Update index. d".
+Vaak is een pull-aanvraag duidelijk weinig inspanning. U kunt dit vaak meteen vertellen toen de bijdrager de selectievakjes in het Pull Request-sjabloon niet controleerde, of gebruikte een algemene pull request titel zoals "made changes" of "Update index.
 
 Er zijn ook situaties waarin de bijdrager probeert een link toe te voegen naar zijn eigen website. of voeg een bibliotheek toe die ze zelf hebben gemaakt, of heeft een lichtzinnige bewerking die niemand helpt behalve zichzelf.
 
@@ -206,8 +206,7 @@ Dit is een standaard bericht dat ik u tijdelijk moest onderbreken om te praten o
 Ik ben een moderator die namens onze open source gemeenschap optreedt. Ik kan overwegen om je schorsing op te heffen, maar je moet eerst de volgende 3 stappen zetten:
 
 1. Lees onze Gedragscode: https://code-of-conduct.freecodecamp.org/
-2. Bericht me terug en bevestig dat je klaar bent met lezen.
-3. Leg me uit waarom je denkt dat ik je heb geschorst en waarom ik je schorsing moet opheffen.
+2. Bericht me terug en bevestig dat je klaar bent met lezen. 3. Leg me uit waarom je denkt dat ik je heb geschorst en waarom ik je schorsing moet opheffen.
 ```
 
 - Rapporteer een korte samenvatting van het evenement en hoe ze daarop hebben gereageerd in het #admin kanaal. Hier is een voorbeeld van hoe een dergelijke samenvatting eruit zou kunnen zien:

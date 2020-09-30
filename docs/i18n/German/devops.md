@@ -20,7 +20,7 @@ Normalerweise [`Master`](https://github.com/freeCodeCamp/freeCodeCamp/tree/maste
 
 Dies ist eine Zwischenveröffentlichung für unsere Entwickler und Freiwillige. Es ist auch bekannt als unsere "Inszenierung" oder "Beta" Release.
 
-Es ist identisch mit unserer Live-Produktionsumgebung unter `freeCodeCamp.org`, außer mit einem separaten Satz von Datenbanken, Servern, Webproxies usw. Diese Isolierung ermöglicht es uns, laufende Entwicklungen und Features in einem "Produktion" wie dem Szenario zu testen, ohne die normalen Benutzer der Hauptplattformen von FreeCodeCamp.org zu beeinträchtigen.
+Es ist identisch mit unserer Live-Produktionsumgebung unter `freeCodeCamp.org`, außer mit einem separaten Satz von Datenbanken, Servern, Webproxies usw. Diese Isolierung ermöglicht es uns, laufende Entwicklungen und Features in einem "Produktion" wie dem Szenario zu testen, ohne die normalen Benutzer der Hauptplattformen von FreeCodeCamp.org zu beeinträchtigen. Diese Isolierung ermöglicht es uns, laufende Entwicklungen und Features in einem "Produktion" wie dem Szenario zu testen, ohne die normalen Benutzer der Hauptplattformen von FreeCodeCamp.org zu beeinträchtigen.
 
 Sobald das Entwicklerteam [`@freeCodeCamp/dev-team`](https://github.com/orgs/freeCodeCamp/teams/dev-team/members) mit den Änderungen auf der Staging-Plattform zufrieden ist, diese Änderungen werden alle paar Tage in den Produktionszweig [``](https://github.com/freeCodeCamp/freeCodeCamp/tree/production-current) verschoben.
 

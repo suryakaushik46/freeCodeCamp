@@ -424,17 +424,18 @@ Voorbereiden van VM's met de Code
    > Todo: Deze instelling moet worden verplaatst naar S3 of Azure Blob opslag 
    > 
    > ```console
-   echo "server-c ../../serve.json www -p 50505" >> client-start-primary.sh
-   chmod +x client-start-primary. h
-   pm2 verwijder klant primaire
-   pm2 start . client-start-primary.sh --name client-primary
-   echo "server-c . /../serve.json www -p 52525" >> client-start-secondary.sh
-   chmod +x client-start-secondary. h
-   pm2 verwijder client-secundaire
-   pm2 start ./client-start-secondary.sh --name client-secundaire
+   ```console
+     echo "server-c ../../serve.json www -p 50505" &#062;&#062; client-start-primary.sh
+     chmod +x client-start-primary. h
+     pm2 verwijder klant primaire
+     pm2 start . client-start-primary.sh --name client-primary
+     echo "server-c . /../serve.json www -p 52525" &#062;&#062; client-start-secondary.sh
+     chmod +x client-start-secondary. h
+     pm2 verwijder client-secundaire
+     pm2 start ./client-start-secondary.sh --name client-secundaire
 ```
 
-## Logboekregistratie en controle
+## Instanties (onderhouden) bijwerken
 
 ```console
 pm2 logs

@@ -83,7 +83,9 @@ Zodra je je vork synchroniseert en de versie passeert, kunnen we je PR beoordele
 ```markdown
 Hey @username
 
-We zouden het leuk vinden om uw wijzigingen samen te voegen, maar het lijkt erop dat u enkele samenvoegconflicten heeft. ⚠️
+We zouden het leuk vinden om uw wijzigingen samen te voegen, maar het lijkt erop dat u enkele samenvoegconflicten heeft.
+
+⚠️
 
 Zodra je deze conflicten hebt opgelost, kunnen we je PR beoordelen en samenvoegen. 😊
 

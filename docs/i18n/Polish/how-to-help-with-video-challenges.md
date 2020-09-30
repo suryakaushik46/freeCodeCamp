@@ -158,8 +158,7 @@ pytanie:
     Co wydrukuje po uruchomieniu tego kodu:
     ```py
     szerokość = 15
-    wysokość = 12.
-    druk (wysokość/3)
+    wysokość = 12. druk (wysokość/3)
     ````
   odpowiedzi:
     - | 39
@@ -182,10 +181,8 @@ pytanie:
     - |
       4
     - |
-      4.
-    - |
-      5.
-    - |
+      4. - |
+      5. - |
       5
   rozwiązanie: 3
 ````

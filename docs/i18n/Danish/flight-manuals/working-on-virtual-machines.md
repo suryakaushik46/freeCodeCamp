@@ -434,6 +434,9 @@ Levering af VM med kodeksen
    pm2 start ./client-start-secondary.sh --name client-secondary
 ```
 
+## Opdatering Af Instanser (Maintenance)
+
+```console
 ## Logning og overvågning
 
 ```console

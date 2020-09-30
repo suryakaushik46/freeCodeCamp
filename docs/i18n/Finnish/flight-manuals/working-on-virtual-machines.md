@@ -434,6 +434,9 @@ Varaukset koodia käyttäen
    pm2 start ./client-start-secondary.sh --name client-secondary
 ```
 
+## Päivitetään Instansseja (Maintenance)
+
+```console
 ## Kirjaaminen ja seuranta
 
 ```console

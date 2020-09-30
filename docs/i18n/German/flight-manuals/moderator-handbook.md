@@ -69,7 +69,7 @@ Wenn der Autor des Pull-Requests ein "Erstmaliger Beitrag" ist, sollten Sie ihn 
 
 Wenn der Pull-Request nicht bereit zur Zusammenführung ist, kannst du höflich antworten und dem Autor sagen, was er tun sollte, um es fertig zu bekommen. Hoffentlich werden sie antworten und ihre Pull-Anfrage näher an sie heranbringen.
 
-Oft wird ein Pull-Request offensichtlich wenig Aufwand sein. Sie können dies oft sofort sagen, wenn der Beitragende sich nicht die Mühe gemacht hat, die Kontrollkästchen im Pull-Request Template anzukreuzen, oder verwendet einen generischen Pull-Request-Titel wie "Änderungen gemacht" oder "Aktualisierungsindex. d".
+Oft wird ein Pull-Request offensichtlich wenig Aufwand sein. Sie können dies oft sofort sagen, wenn der Beitragende sich nicht die Mühe gemacht hat, die Kontrollkästchen im Pull-Request Template anzukreuzen, oder verwendet einen generischen Pull-Request-Titel wie "Änderungen gemacht" oder "Aktualisierungsindex.
 
 Es gibt auch Situationen, in denen der Beitragende versucht, einen Link zu seiner eigenen Website hinzuzufügen oder eine Bibliothek, die sie selbst erstellt haben, einbinden oder eine leichtsinnige Bearbeitung haben, die niemandem außer sich selbst hilft.
 
@@ -134,7 +134,7 @@ Obwohl Sie Schreibzugriff auf FreeCodeCamps Repository haben werden, **sollten S
 
 Außerdem sollten Sie niemals Ihre eigenen PRs akzeptieren. Sie müssen QA'd von einem anderen Moderator sein, genau wie bei jedem anderen PR auch.
 
-Wenn du bemerkst, dass jemand den [-Verhaltenskodex](https://code-of-conduct.freecodecamp.org) bei GitHub gebrochen hat oder Pull Requests mit böswilligen Inhalten oder Code öffnen, E-Mail dev@freecodecamp. rg mit einem Link auf die anstößige Pull-Request-Anforderung und wir können erwägen, sie vollständig von der FreeCodeCamp's GitHub Organisation zu verbieten.
+Wenn du bemerkst, dass jemand den [-Verhaltenskodex](https://code-of-conduct.freecodecamp.org) bei GitHub gebrochen hat oder Pull Requests mit böswilligen Inhalten oder Code öffnen, E-Mail dev@freecodecamp.
 
 # Forum moderieren
 
@@ -206,8 +206,7 @@ Dies ist eine Standard-Nachricht, die dich darüber informiert, dass ich dich vo
 Ich bin Moderator, der im Namen unserer Open Source Community agiert. Ich kann erwägen, deine Suspendierung zu entfernen, aber ich muss zuerst die folgenden 3 Schritte machen:
 
 1. Lesen Sie unseren Verhaltenskodex: https://code-of-conduct.freecodecamp.org/
-2. Melde mich zurück und bestätige, dass du sie gelesen hast.
-3. Erklären Sie mir, warum ich Sie Ihrer Meinung nach ausgesetzt habe und warum ich Ihre Aussetzung aufheben sollte.
+2. Melde mich zurück und bestätige, dass du sie gelesen hast. 3. Erklären Sie mir, warum ich Sie Ihrer Meinung nach ausgesetzt habe und warum ich Ihre Aussetzung aufheben sollte.
 ```
 
 - Melde eine kurze Zusammenfassung der Veranstaltung und wie sie im #admin Channel darauf reagiert haben. Hier ist ein Beispiel dafür, wie eine solche Zusammenfassung aussehen könnte:

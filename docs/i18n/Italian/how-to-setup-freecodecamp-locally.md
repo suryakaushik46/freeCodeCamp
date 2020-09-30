@@ -318,7 +318,7 @@ Segui questi passaggi:
    git checkout -b fix/update-guide-for-xyz
    ```
 
-   Il nome del ramo dovrebbe iniziare con un `fix/`, `feat/`, `docs/`, ecc. Evitare di utilizzare i numeri di problema nei rami. Tienili brevi, significativi e unici.
+   Il nome del ramo dovrebbe iniziare con un `fix/`, `feat/`, `docs/`, ecc. Evitare di utilizzare i numeri di problema nei rami. Evitare di utilizzare i numeri di problema nei rami. Tienili brevi, significativi e unici.
 
    Alcuni esempi di buoni nomi dei rami sono:
 

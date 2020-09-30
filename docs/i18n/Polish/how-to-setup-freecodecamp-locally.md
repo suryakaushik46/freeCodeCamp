@@ -348,15 +348,13 @@ Wykonaj następujące kroki:
    Na oddziale feat/dokumentacja
    Twoja gałąź jest aktualna z 'upstream/feat/documentation'.
 
-   Zmiany nie są etapowane dla zatwierdzenia:
-   (użyj "git add/rm <file>... aby zaktualizować co zostanie zatwierdzone)
-   (użyj "git checkout -- <file>. " aby odrzucić zmiany w katalogu roboczym)
+   Zmiany do zatwierdzenia:
+   (użyj "git reset HEAD <file>..." aby cofnąć)
 
-       zmodyfikowany: CONTRIBUTING. d
+       zmodyfikowany: CONTRIBUTING.md
        zmodyfikowany: docs/README.md
-       zmodyfikowany: docs/how-to-setup-freecodecamp-lokalnie. d
+       zmodyfikowany: docs/how-to-setup-freecodecamp-lokcally.md
        zmodyfikowany: docs/how-to-work-on-guide-articles.md
-...
    ```
 
 8. Etapy zmian i zgłoś zatwierdzenie:
@@ -385,13 +383,11 @@ Wykonaj następujące kroki:
    Na oddziale feat/dokumentacja
    Twoja gałąź jest aktualna z 'upstream/feat/documentation'.
 
-   Zmiany do zatwierdzenia:
-   (użyj "git reset HEAD <file>..." aby cofnąć)
-
-       zmodyfikowany: CONTRIBUTING.md
+   d
        zmodyfikowany: docs/README.md
-       zmodyfikowany: docs/how-to-setup-freecodecamp-lokcally.md
+       zmodyfikowany: docs/how-to-setup-freecodecamp-lokalnie. d
        zmodyfikowany: docs/how-to-work-on-guide-articles.md
+...
    ```
 
    Teraz możesz zatwierdzić swoje zmiany za pomocą krótkiej wiadomości takiej jak:

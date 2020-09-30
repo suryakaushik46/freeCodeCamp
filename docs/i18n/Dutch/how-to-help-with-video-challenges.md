@@ -97,7 +97,7 @@ vraag:
   oplossing: 3
 ```
 
-Werk het woord "Vraag" bij met uw vraag. Werk de "één", "twee", en "drie" bij met de mogelijke antwoorden. Zorg ervoor dat het oplossingsnummer wordt bijgewerkt waarmee het antwoord correct is. U kunt meer mogelijke antwoorden toevoegen volgens dezelfde indeling De vraag en antwoorden kunnen worden omringd met aanhalingstekens.
+Werk het woord "Vraag" bij met uw vraag. Werk de "één", "twee", en "drie" bij met de mogelijke antwoorden. Zorg ervoor dat het oplossingsnummer wordt bijgewerkt waarmee het antwoord correct is. U kunt meer mogelijke antwoorden toevoegen volgens dezelfde indeling De vraag en antwoorden kunnen worden omringd met aanhalingstekens. De vraag en antwoorden kunnen worden omringd met aanhalingstekens.
 
 #### Gebruik markdown om je vraag te formatteren
 
@@ -159,8 +159,7 @@ vraag:
     Wat zal worden afgedrukt na het uitvoeren van deze code:
     ```py
     breedte = 15
-    hoogte = 12.
-    print(hoogte/3)
+    hoogte = 12. print(hoogte/3)
     ````
   antwoorden:
     - | 39

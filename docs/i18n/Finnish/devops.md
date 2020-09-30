@@ -94,7 +94,7 @@ Tällä hetkellä vain kehittäjätiimin jäsenet voivat työntää tuotannon si
    npm ajaa puhdasta ja kehittää
    ```
 
-5. Siirrä muutokset `master` `tuotantovaiheeseen` nopeasti etenevän yhdistämisen kautta
+5. Siirrä muutokset `master`
 
    ```
    git checkout tuotantovaiheinen
@@ -129,7 +129,7 @@ Prosessi on enimmäkseen sama kuin lavastus ja muutamia lisätarkastuksia on teh
    git reset --hard upstream/production-staging
    ```
 
-2. Siirrä muutokset `tuotantovaiheisesta` `tuotantovirrasta` nopeasti etenevän yhdistämisen kautta
+2. Siirrä muutokset `tuotantovaiheisesta`
 
    ```
    git checkout tuotantovirta

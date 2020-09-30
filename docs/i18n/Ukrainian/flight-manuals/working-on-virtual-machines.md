@@ -434,6 +434,9 @@ sudo apt встановити головний збірку
    pm2 start  ./client-start-secondary.sh --name client-secondary
 ```
 
+## Оновлення екземплярів (обслуговування)
+
+```console
 ## Журнал і монітор
 
 ```console

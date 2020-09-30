@@ -487,13 +487,13 @@ Enkele js
 <hr />
 
 <p spaces-before="0">
-  Antwoord 2
+  Meer antwoorden
 </p>
 
 <hr />
 
 <p spaces-before="0">
-  Meer antwoorden
+  Antwoord 2
 </p>
 
 <h2 spaces-before="0">

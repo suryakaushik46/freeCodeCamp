@@ -69,7 +69,7 @@ Jeśli autor Pull Request jest "pierwszym współtwórcą", powinieneś im równ
 
 Jeśli pull request nie wygląda na gotowy do scalenia, możesz uprzejmie odpowiedzieć na pytanie autora, co powinny zrobić, aby przygotować go. Miejmy nadzieję, że odpowiedzą i doczekają się ich pull request.
 
-Często pull request będzie oczywiście niewielkim wysiłkiem. Często możesz to powiedzieć natychmiast, gdy współtwórca nie przeszkadza sprawdzania pól wyboru w szablonie Pull Request Template, lub użyto ogólnego tytułu pull request jak "made changes" lub "Update index. d”.
+Często pull request będzie oczywiście niewielkim wysiłkiem. Często możesz to powiedzieć natychmiast, gdy współtwórca nie przeszkadza sprawdzania pól wyboru w szablonie Pull Request Template, lub użyto ogólnego tytułu pull request jak "made changes" lub "Update index.
 
 Istnieją również sytuacje, w których podmiot przekazujący dane próbuje dodać link do własnej strony internetowej, lub dołącz bibliotekę, którą sami utworzyli, lub ma niepoważną edycję, która nie służy do pomocy nikomu oprócz siebie.
 
@@ -206,8 +206,7 @@ Jest to standardowa wiadomość powiadamiająca Cię, że musiałem czasowo zawi
 Jestem moderatorem działającym w imieniu naszej społeczności open source. Mogę rozważyć usunięcie twojej zawiesiny, ale muszę najpierw wykonać następujące 3 kroki:
 
 1. Przeczytaj nasz kodeks postępowania: https://code-of-conduct.freecodecamp.org/
-2. Napisz do mnie ponownie, potwierdzając, że zakończyłeś czytanie.
-3. Wyjaśnij, dlaczego uważasz, że Cię zawiesiłem, i dlaczego powinienem usunąć twoje zawieszenie.
+2. Napisz do mnie ponownie, potwierdzając, że zakończyłeś czytanie. 3. Wyjaśnij, dlaczego uważasz, że Cię zawiesiłem, i dlaczego powinienem usunąć twoje zawieszenie.
 ```
 
 - Zgłoś krótkie podsumowanie wydarzenia i odpowiedź na nie w kanale #admin. Oto przykład takiego podsumowania:

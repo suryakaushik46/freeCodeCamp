@@ -83,7 +83,9 @@ Una volta che sincronizzi il fork e passerai la build, saremo in grado di rivede
 ```markdown
 Hey @username
 
-Ci piacerebbe essere in grado di unire i tuoi cambiamenti, ma sembra che tu abbia alcuni conflitti di fusione. ⚠️
+Ci piacerebbe essere in grado di unire i tuoi cambiamenti, ma sembra che tu abbia alcuni conflitti di fusione.
+
+⚠️
 
 Una volta risolti questi conflitti, saremo in grado di rivedere la tua PR e unirla. 😊
 

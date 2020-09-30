@@ -20,7 +20,7 @@ Tipicamente, [`master`](https://github.com/freeCodeCamp/freeCodeCamp/tree/master
 
 Questa è una release intermedia per i nostri sviluppatori e collaboratori volontari. E 'anche noto come il nostro "staging" o "beta" rilascio.
 
-È identico al nostro ambiente di produzione live a `freeCodeCamp.org`, diverso da quello che utilizza un set separato di database, server, web-proxies, ecc. Questo isolamento ci permette di testare lo sviluppo continuo e le caratteristiche in una "produzione" come scenario, senza influenzare gli utenti regolari delle principali piattaforme di freeCodeCamp.org.
+È identico al nostro ambiente di produzione live a `freeCodeCamp.org`, diverso da quello che utilizza un set separato di database, server, web-proxies, ecc. Questo isolamento ci permette di testare lo sviluppo continuo e le caratteristiche in una "produzione" come scenario, senza influenzare gli utenti regolari delle principali piattaforme di freeCodeCamp.org. Questo isolamento ci permette di testare lo sviluppo continuo e le caratteristiche in una "produzione" come scenario, senza influenzare gli utenti regolari delle principali piattaforme di freeCodeCamp.org.
 
 Una volta che il team di sviluppatori [`@freeCodeCamp/dev-team`](https://github.com/orgs/freeCodeCamp/teams/dev-team/members) è soddisfatto dei cambiamenti sulla piattaforma di stadio, questi cambiamenti vengono spostati ogni pochi giorni nel ramo [`della produzione-corrente`](https://github.com/freeCodeCamp/freeCodeCamp/tree/production-current).
 
@@ -110,7 +110,7 @@ I passaggi precedenti attiveranno automaticamente un'esecuzione sulla pipeline d
 
 La pipeline di rilascio viene attivata automaticamente quando un nuovo artefatto è disponibile dalla pipeline di generazione connessa. Per le piattaforme di staging questo processo non comporta l'approvazione manuale e gli artefatti vengono spinti al client CDN e server API.
 
-> [!Etichetta TIP<unk> :Stime] Tipicamente la build run impiega ~20-25 minuti per completare seguita dalla release run che impiega ~15-20 minuti per il client, e ~5-10 minuti per l'API di essere disponibile dal vivo. Dal push del codice per essere in diretta sulle piattaforme di staging l'intero processo richiede **~ 35-45 minuti** in totale.
+> :Stime] Tipicamente la build run impiega ~20-25 minuti per completare seguita dalla release run che impiega ~15-20 minuti per il client, e ~5-10 minuti per l'API di essere disponibile dal vivo. Dal push del codice per essere in diretta sulle piattaforme di staging l'intero processo richiede **~ 35-45 minuti** in totale.
 
 ### Inviare le modifiche alle applicazioni di produzione.
 
@@ -143,7 +143,7 @@ Il processo è per lo più lo stesso delle piattaforme di stadio, con alcuni con
 
 I passaggi precedenti attiveranno automaticamente un'esecuzione sulla pipeline di generazione per il ramo `produzione-corrente`. Una volta che un artefatto di build è pronto, attiverà una corsa sulla pipeline di rilascio.
 
-> [!Etichetta TIP<unk> :Stime] Tipicamente la build run richiede ~20-25 minuti per completare.
+> :Stime] Tipicamente la build run richiede ~20-25 minuti per completare.
 
 **Misure supplementari per l'azione del personale**
 
@@ -160,7 +160,7 @@ Per uso del personale:
 
 Una volta che uno dei membri dello staff approva un rilascio, la pipeline spingerà le modifiche dal vivo ai server CDN e API di produzione di freeCodeCamp.org. Di solito prendono ~15-20 minuti per il cliente, e ~5 minuti per i server API per essere disponibili dal vivo.
 
-> [!TIP<unk> label:Estimates] L'esecuzione del rilascio richiede tipicamente ~15-20 minuti per ogni istanza client e ~5-10 minuti per ogni istanza API per essere disponibile dal vivo. Dal codice push per essere in diretta sulle piattaforme di produzione l'intero processo richiede **~ 90-120 minuti** in totale (senza contare il tempo di attesa per l'approvazione del personale).
+> label:Estimates] L'esecuzione del rilascio richiede tipicamente ~15-20 minuti per ogni istanza client e ~5-10 minuti per ogni istanza API per essere disponibile dal vivo. Dal codice push per essere in diretta sulle piattaforme di produzione l'intero processo richiede **~ 90-120 minuti** in totale (senza contare il tempo di attesa per l'approvazione del personale).
 
 ## Stato di compilazione, test e distribuzione
 

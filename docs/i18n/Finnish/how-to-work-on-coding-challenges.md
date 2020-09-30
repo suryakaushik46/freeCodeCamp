@@ -493,7 +493,7 @@ Jotkut js
 <hr />
 
 <p spaces-before="0">
-  Lisää vastauksia
+  Vastaa 2
 </p>
 
 <h2 spaces-before="0">

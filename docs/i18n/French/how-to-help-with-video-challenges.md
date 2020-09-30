@@ -158,8 +158,7 @@ question:
     Ce qui va s'afficher après avoir exécuté ce code :
     ```py
     width = 15
-    height = 12.
-    impression(hauteur/3)
+    height = 12. impression(hauteur/3)
     ````
   réponses:
     - | 39
@@ -182,10 +181,8 @@ question :
     - |
       4
     - |
-      4.
-    - |
-      5.
-    - |
+      4. - |
+      5. - |
       5
   solution: 3
 ````

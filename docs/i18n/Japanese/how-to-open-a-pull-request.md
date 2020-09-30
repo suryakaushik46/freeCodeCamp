@@ -68,11 +68,11 @@ You can select a scope from [this list of labels](https://github.com/freeCodeCam
 
 ## プルリクエストへのフィードバック
 
-> おめでとうございます :tada: さんがPRをしてくれて、時間をかけて貢献してくれてありがとうございます。
+> おめでとうございます おめでとうございます :tada: さんがPRをしてくれて、時間をかけて貢献してくれてありがとうございます。
 
 モデレータは今見て、あなたにフィードバックを残します。 仲間のモデレータに我慢して、時間を尊重してください。 すべてのプルリクエストはコースでレビューされます。
 
-サポートが必要な場合は、 [チャットルーム](https://gitter.im/FreeCodeCamp/Contributors)でご相談ください。お手伝いいたします。
+サポートが必要な場合は、 [チャットルーム](https://gitter.im/FreeCodeCamp/Contributors)でご相談ください。
 
 > [!TIP] If you are to be contributing more pull requests, we recommend you read the [making changes and syncing](https://contribute.freecodecamp.org/#/how-to-setup-freecodecamp-locally?id=making-changes-locally) guidelines to avoid having to delete your fork.
 
@@ -80,7 +80,7 @@ You can select a scope from [this list of labels](https://github.com/freeCodeCam
 
 コンフリクトは、リポジトリ上で多くのコントリビューターが動作し、変更がレビューとマージを保留中のPRを破る可能性があるために発生する可能性があります。
 
-多くの場合、あなたがリベースを必要としないことがあります。なぜなら、私たちはすべてのコミットをスカッシュするからです。 だがここでリベースを要求されたら お前がやるべきことだ
+多くの場合、あなたがリベースを必要としないことがあります。 なぜなら、私たちはすべてのコミットをスカッシュするからです。 だがここでリベースを要求されたら お前がやるべきことだ
 
 ### 通常のバグ修正と機能について
 
@@ -96,6 +96,8 @@ You can select a scope from [this list of labels](https://github.com/freeCodeCam
 2. 競合を解決し、コミットの追加/編集
 
    ```console
+   #
+   git add のいずれか。
    #
    git add のいずれか。
    git commit -m "care: resolve conflicts"
@@ -126,7 +128,7 @@ You can select a scope from [this list of labels](https://github.com/freeCodeCam
 
 2. バックアップを取る
 
-   a バックアップを取った後にローカルブランチを削除します(ローカルにまだある場合):
+   a a バックアップを取った後にローカルブランチを削除します(ローカルにまだある場合):
 
       ```console
       git checkout <pr-branch-name>
@@ -142,7 +144,7 @@ You can select a scope from [this list of labels](https://github.com/freeCodeCam
       git branch -D <pr-branch-name>
       ```
 
-   B または、pr ブランチのバックアップだけです(ローカルに持っていない場合):
+   B B または、pr ブランチのバックアップだけです(ローカルに持っていない場合):
 
       ```console
       git checkout -b <backup-branch-name> origin/<pr-branch-name>

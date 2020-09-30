@@ -206,8 +206,7 @@ This is a standard message notifying you that I had to temporarily suspend you f
 I am a moderator acting on behalf of our open source community. I can consider removing your suspension, but I need you to take the following 3 steps first:
 
 1. Read our Code of Conduct: https://code-of-conduct.freecodecamp.org/
-2. Message me back confirming that you have finished reading it.
-3. Explain to me why you think I suspended you, and why I should remove your suspension.
+2. Message me back confirming that you have finished reading it. 3. Explain to me why you think I suspended you, and why I should remove your suspension.
 ```
 
 - Report a short summary of the event and how they responded to it in the #admin channel. Here's an example of what such a summary might look like:

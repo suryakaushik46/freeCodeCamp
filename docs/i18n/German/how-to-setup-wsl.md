@@ -50,7 +50,7 @@ Grundsätzlich werden Sie Ihren Code auf Ubuntu-18.04 bearbeiten und speichern, 
 
 ## Docker Desktop installieren
 
-**Docker Desktop für Windows** ermöglicht die Installation und Ausführung von Datenbanken und Diensten wie MongoDB, NGINX, etc. Dies ist nützlich, um häufige Fallstricke bei der Installation von MongoDB oder anderen Diensten direkt unter Windows oder WSL2 zu vermeiden.
+**Docker Desktop für Windows** ermöglicht die Installation und Ausführung von Datenbanken und Diensten wie MongoDB, NGINX, etc. Dies ist nützlich, um häufige Fallstricke bei der Installation von MongoDB oder anderen Diensten direkt unter Windows oder WSL2 zu vermeiden. Dies ist nützlich, um häufige Fallstricke bei der Installation von MongoDB oder anderen Diensten direkt unter Windows oder WSL2 zu vermeiden.
 
 Folgen Sie der Anleitung in der [-offiziellen Dokumentation](https://docs.docker.com/docker-for-windows/install) und installieren Sie Docker Desktop für Ihre Windows-Distribution.
 
